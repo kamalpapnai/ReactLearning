@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    margin-top: 50px;
+ color: brown;
+ text-align: center;
+ text-transform: capitalize;
+ font-family: 'Josefin Sans', sans-serif;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+.img-div img{
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px brown solid;
+    border-radius: 5px;
+}
