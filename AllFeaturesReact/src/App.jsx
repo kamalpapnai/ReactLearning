@@ -12,6 +12,9 @@ import Form4 from "./Form4";
 import ToDoApp from "./ToDoApp";
 import ToDoAppUsingMaterial from './ToDoAppUsingMaterial';
 import TryBootstrap from "./TryBootstrap";
+import Demo from "./ContextAPI/Demo";
+import UseEffectDemo from './UseEffectHooks/UseEffectDemo';
+import ApiCallDemo from "./APICalls/ApiCallDemo";
 
 function App(){
    return (
@@ -49,7 +52,13 @@ function App(){
 
     {/* <ToDoAppUsingMaterial/> */}
 
-    <TryBootstrap/>
+     {/* <TryBootstrap/> */}
+
+    {/* <Demo/> */}
+
+    {/* <UseEffectDemo/> */}
+
+    <ApiCallDemo/>
 
   </>
    )

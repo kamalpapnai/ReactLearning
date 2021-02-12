@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 30px 10px;
-  height: 250px;
+  height: max-content;
 }
 .note_form{
     border-radius: 15px;
