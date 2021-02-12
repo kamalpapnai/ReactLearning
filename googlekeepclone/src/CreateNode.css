@@ -1,0 +1,57 @@
+.div_note{
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+  height: 250px;
+}
+.note_form{
+    border-radius: 15px;
+    background-color: rgb(241, 233, 111);
+    min-width: 400px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input_title{
+   height: 30px;
+   border: none;
+   border-bottom: 2px solid rgb(93, 92, 92);
+   background-color: transparent;
+   font-size: 16px;
+   margin-bottom: 20px;
+   letter-spacing: 1px;
+
+}
+.input_title:focus{
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.text_todo{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+
+}
+.text_todo:focus{
+    outline: none;
+}
+.add_btn{
+   position: absolute;
+   bottom: -10px;
+   right: -15px;
+   height: 60px;
+   width: 60px;
+   background-color: rgba(255, 166, 0, 0.809);
+   border: none;
+   font-size:35px;
+   border-radius: 30px;
+   cursor: pointer;
+}
+.add_btn:hover{
+    background-color: orange;
+}
+.add_btn:focus{
+    outline: none;  
+}
