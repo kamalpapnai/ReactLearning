@@ -15,6 +15,8 @@ import TryBootstrap from "./TryBootstrap";
 import Demo from "./ContextAPI/Demo";
 import UseEffectDemo from './UseEffectHooks/UseEffectDemo';
 import ApiCallDemo from "./APICalls/ApiCallDemo";
+import RouterDemo from './Router/RouterDemo';
+import { BrowserRouter } from "react-router-dom";
 
 function App(){
    return (
@@ -58,7 +60,11 @@ function App(){
 
     {/* <UseEffectDemo/> */}
 
-    <ApiCallDemo/>
+    {/* <ApiCallDemo/> */}
+ 
+    <BrowserRouter>
+       <RouterDemo/>
+    </BrowserRouter>
 
   </>
    )
