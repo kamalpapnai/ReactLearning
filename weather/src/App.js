@@ -7,7 +7,7 @@ function App() {
 
   useEffect(()=>{
      const fetchApi =()=>{
-       fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ec4d031e7f7b5efe27525728c399ed32`)
+       fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid={YOUR API ID}`)
        .then(res=>res.json())
        .then(
          (result)=>{
