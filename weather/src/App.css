@@ -1,0 +1,47 @@
+.box{
+  margin-top: 20vh;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(104, 223, 223);
+  border-radius: 20px;
+}
+
+
+.div_input{
+  margin: 40px;
+
+}
+
+.input_type{
+  height: 30px;
+  width: 250px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+}
+.input_type:focus{
+  outline: none;
+}
+.div__info{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.location{
+  font-size: 40px;
+  margin: auto 0;
+  margin-bottom: 20px;
+}
+.temp{
+   margin-bottom: 20px;
+}
+.temp_min_max{
+margin-bottom: 20px;
+}
+
+.error_msg{
+  margin-top: 20px;
+  font-size: 20px;
+}
